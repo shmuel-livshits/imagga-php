@@ -38,4 +38,5 @@ $response = $client->extractColors('https://imagga.com/static/images/tagging/win
 
 ```
 composer test
-``
+```
+
