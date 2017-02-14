@@ -1,5 +1,11 @@
 # Imagga API Client
 
+[![Latest Stable Version](https://poser.pugx.org/fabriceclementz/imagga-php/v/stable)](https://packagist.org/packages/fabriceclementz/imagga-php)
+
+[![Total Downloads](https://poser.pugx.org/fabriceclementz/imagga-php/downloads)](https://packagist.org/packages/fabriceclementz/imagga-php)
+
+[![License](https://poser.pugx.org/fabriceclementz/imagga-php/license)](https://packagist.org/packages/fabriceclementz/imagga-php)
+
 A simple wrapper for the [Imagga API](https://docs.imagga.com).
 
 ## Installation
