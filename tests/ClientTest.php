@@ -2,9 +2,9 @@
 
 namespace Fab\Imagga\Tests;
 
-use Mockery;
-use GuzzleHttp\Client as HttpClient;
 use Fab\Imagga\Client;
+use GuzzleHttp\Client as HttpClient;
+use Mockery;
 
 class ClientTest extends TestCase
 {
