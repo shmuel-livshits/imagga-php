@@ -60,7 +60,7 @@ class Client
      * @param  string $url The image url.
      * @return array
      */
-    public function extractColors($url, array $options = [])
+    public function colors($url, array $options = [])
     {
         return $this->send('GET', 'colors', array_merge($options, [
             'url' => $url,

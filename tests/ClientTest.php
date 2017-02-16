@@ -113,7 +113,7 @@ class ClientTest extends TestCase
             ->andReturn(json_encode(['foo' => 'bar']));
 
         // Act
-        $response = (new Client($httpClient, 'api-key', 'api-secret'))->extractColors('image-url');
+        $response = (new Client($httpClient, 'api-key', 'api-secret'))->colors('image-url');
 
         // Assert
         $this->assertTrue(is_array($response));
@@ -147,7 +147,7 @@ class ClientTest extends TestCase
             ->andReturn(json_encode(['foo' => 'bar']));
 
         // Act
-        $response = (new Client($httpClient, 'api-key', 'api-secret'))->extractColors('image-url', [
+        $response = (new Client($httpClient, 'api-key', 'api-secret'))->colors('image-url', [
             'extract_overall_colors' => '0',
         ]);
 

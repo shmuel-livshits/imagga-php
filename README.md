@@ -36,7 +36,7 @@ use Fab\Imagga\Client;
 
 $client = new Client(new HttpClient(), 'IMAGGA_API_KEY', 'IMAGGA_API_SECRET');
 
-$response = $client->extractColors('https://imagga.com/static/images/tagging/wind-farm-538576_640.jpg');
+$response = $client->colors('https://imagga.com/static/images/tagging/wind-farm-538576_640.jpg');
 ```
 
 ## Testing
